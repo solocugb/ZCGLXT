@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haina.zcglxt.auditlevel.dao.AuditlevelMapper">
+  <resultMap id="BaseResultMap" type="com.haina.zcglxt.auditlevel.domain.Auditlevel">
+    <result column="auditContents" jdbcType="VARCHAR" property="auditcontents" />
+    <result column="levels" jdbcType="INTEGER" property="levels" />
+    <result column="levelStatus" jdbcType="VARCHAR" property="levelstatus" />
+    <result column="descriptions" jdbcType="VARCHAR" property="descriptions" />
+    <result column="updateDate" jdbcType="TIMESTAMP" property="updatedate" />
+    <result column="appendConditionContents" jdbcType="VARCHAR" property="appendconditioncontents" />
+  </resultMap>
+  <select id="findAll" resultType="auditlevel">
+		select * from auditlevel
+	</select>
+  
+  
+ </mapper>

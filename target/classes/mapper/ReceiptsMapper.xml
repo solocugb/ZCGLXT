@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haina.zcglxt.receipts.dao.ReceiptsMapper">
+  <resultMap id="BaseResultMap" type="com.haina.zcglxt.receipts.domain.Receipts">
+    <result column="equipmentName" jdbcType="VARCHAR" property="equipmentname" />
+    <result column="equipmentSimpleName" jdbcType="VARCHAR" property="equipmentsimplename" />
+    <result column="equipmentEnglishName" jdbcType="VARCHAR" property="equipmentenglishname" />
+    <result column="nationStandardCode" jdbcType="VARCHAR" property="nationstandardcode" />
+    <result column="measuerUnit" jdbcType="VARCHAR" property="measuerunit" />
+    <result column="singlePrice" jdbcType="DOUBLE" property="singleprice" />
+    <result column="amount" jdbcType="INTEGER" property="amount" />
+    <result column="aggrementNumber" jdbcType="VARCHAR" property="aggrementnumber" />
+    <result column="specification" jdbcType="VARCHAR" property="specification" />
+    <result column="modelType" jdbcType="VARCHAR" property="modeltype" />
+    <result column="maintainManufacture" jdbcType="VARCHAR" property="maintainmanufacture" />
+    <result column="productRegistCertificate" jdbcType="VARCHAR" property="productregistcertificate" />
+    <result column="equipmentManufacturingNum" jdbcType="VARCHAR" property="equipmentmanufacturingnum" />
+    <result column="equipmentManufacturingDate" jdbcType="DATE" property="equipmentmanufacturingdate" />
+    <result column="manageRegist" jdbcType="VARCHAR" property="manageregist" />
+    <result column="manufactureCountry" jdbcType="VARCHAR" property="manufacturecountry" />
+    <result column="nationality" jdbcType="VARCHAR" property="nationality" />
+    <result column="inlandAgent" jdbcType="VARCHAR" property="inlandagent" />
+    <result column="foreignTradeAgent" jdbcType="VARCHAR" property="foreigntradeagent" />
+    <result column="dealerBankAccount" jdbcType="VARCHAR" property="dealerbankaccount" />
+    <result column="agentBankAccount" jdbcType="VARCHAR" property="agentbankaccount" />
+    <result column="purchaseWay" jdbcType="VARCHAR" property="purchaseway" />
+    <result column="capitalSource" jdbcType="VARCHAR" property="capitalsource" />
+    <result column="officeUse" jdbcType="VARCHAR" property="officeuse" />
+    <result column="acceptor" jdbcType="VARCHAR" property="acceptor" />
+    <result column="acceptDate" jdbcType="DATE" property="acceptdate" />
+  </resultMap>
+  </mapper>

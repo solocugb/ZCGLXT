@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haina.zcglxt.contracts.dao.ContractsMapper">
+  <resultMap id="BaseResultMap" type="com.haina.zcglxt.contracts.domain.Contracts">
+    <result column="contractType" jdbcType="VARCHAR" property="contracttype" />
+    <result column="aggrementNumber" jdbcType="VARCHAR" property="aggrementnumber" />
+    <result column="purchaser" jdbcType="VARCHAR" property="purchaser" />
+    <result column="supplier" jdbcType="VARCHAR" property="supplier" />
+    <result column="equipmentName" jdbcType="VARCHAR" property="equipmentname" />
+    <result column="totalPrice" jdbcType="DOUBLE" property="totalprice" />
+    <result column="signDate" jdbcType="DATE" property="signdate" />
+    <result column="auditDate" jdbcType="DATE" property="auditdate" />
+    <result column="foreignTradeNumber" jdbcType="VARCHAR" property="foreigntradenumber" />
+    <result column="foreignTradeAgent" jdbcType="VARCHAR" property="foreigntradeagent" />
+    <result column="contractSignStatus" jdbcType="VARCHAR" property="contractsignstatus" />
+  </resultMap>
+
+  </mapper>
