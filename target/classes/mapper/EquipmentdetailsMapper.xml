@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haina.zcglxt.equipmentdetails.dao.EquipmentdetailsMapper">
+  <resultMap id="BaseResultMap" type="com.haina.zcglxt.equipmentdetails.domain.Equipmentdetails">
+    <result column="equipmentName" jdbcType="VARCHAR" property="equipmentname" />
+    <result column="equipmentSimpleName" jdbcType="VARCHAR" property="equipmentsimplename" />
+    <result column="equipmentEnglishName" jdbcType="VARCHAR" property="equipmentenglishname" />
+    <result column="specification" jdbcType="VARCHAR" property="specification" />
+    <result column="modelType" jdbcType="VARCHAR" property="modeltype" />
+    <result column="amount" jdbcType="INTEGER" property="amount" />
+    <result column="measuerUnit" jdbcType="VARCHAR" property="measuerunit" />
+    <result column="singlePrice" jdbcType="DOUBLE" property="singleprice" />
+    <result column="expenditure" jdbcType="DOUBLE" property="expenditure" />
+    <result column="equipmentUse" jdbcType="VARCHAR" property="equipmentuse" />
+    <result column="purchaseWay" jdbcType="VARCHAR" property="purchaseway" />
+    <result column="nationality" jdbcType="VARCHAR" property="nationality" />
+    <result column="manufacturer" jdbcType="VARCHAR" property="manufacturer" />
+    <result column="equipStatus" jdbcType="VARCHAR" property="equipstatus" />
+  </resultMap>
+  </mapper>

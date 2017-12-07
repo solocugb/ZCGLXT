@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haina.zcglxt.schedulesapply.dao.SchedulesapplyMapper">
+  <resultMap id="BaseResultMap" type="com.haina.zcglxt.schedulesapply.domain.Schedulesapply">
+    <result column="scheduleNumber" jdbcType="VARCHAR" property="schedulenumber" />
+    <result column="equipmentName" jdbcType="VARCHAR" property="equipmentname" />
+    <result column="equipmentSimpleName" jdbcType="VARCHAR" property="equipmentsimplename" />
+    <result column="equipmentEnglishName" jdbcType="VARCHAR" property="equipmentenglishname" />
+    <result column="specification" jdbcType="VARCHAR" property="specification" />
+    <result column="modelType" jdbcType="VARCHAR" property="modeltype" />
+    <result column="amount" jdbcType="INTEGER" property="amount" />
+    <result column="singlePrice" jdbcType="DOUBLE" property="singleprice" />
+    <result column="totalPrice" jdbcType="DOUBLE" property="totalprice" />
+    <result column="expenditure" jdbcType="DOUBLE" property="expenditure" />
+    <result column="measuerUnit" jdbcType="DOUBLE" property="measuerunit" />
+    <result column="predictPrice" jdbcType="DOUBLE" property="predictprice" />
+    <result column="capitalSource" jdbcType="VARCHAR" property="capitalsource" />
+    <result column="equipmentUse" jdbcType="VARCHAR" property="equipmentuse" />
+    <result column="purchaseWay" jdbcType="VARCHAR" property="purchaseway" />
+    <result column="nationality" jdbcType="VARCHAR" property="nationality" />
+    <result column="manufacturer" jdbcType="VARCHAR" property="manufacturer" />
+    <result column="applyOffice" jdbcType="VARCHAR" property="applyoffice" />
+    <result column="applicant" jdbcType="VARCHAR" property="applicant" />
+    <result column="applyDate" jdbcType="TIMESTAMP" property="applydate" />
+  </resultMap>
+ 
+  </mapper>

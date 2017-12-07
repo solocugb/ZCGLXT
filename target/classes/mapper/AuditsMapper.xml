@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haina.zcglxt.audits.dao.AuditsMapper">
+  <resultMap id="BaseResultMap" type="com.haina.zcglxt.audits.domain.Audits">
+    <result column="auditContents" jdbcType="VARCHAR" property="auditcontents" />
+    <result column="auditLevel" jdbcType="INTEGER" property="auditlevel" />
+    <result column="auditSerialNum" jdbcType="VARCHAR" property="auditserialnum" />
+    <result column="appendConditions" jdbcType="VARCHAR" property="appendconditions" />
+    <result column="appendMaxLevel" jdbcType="INTEGER" property="appendmaxlevel" />
+    <result column="updateDate" jdbcType="TIMESTAMP" property="updatedate" />
+  </resultMap>
+  </mapper>
