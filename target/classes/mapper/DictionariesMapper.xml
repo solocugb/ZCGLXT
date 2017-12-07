@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haina.zcglxt.dictionaries.dao.DictionariesMapper">
+  <resultMap id="BaseResultMap" type="com.haina.zcglxt.dictionaries.domain.Dictionaries">
+    <result column="deprecitionPattern" jdbcType="VARCHAR" property="deprecitionpattern" />
+    <result column="nationality" jdbcType="VARCHAR" property="nationality" />
+    <result column="nationStandardCode" jdbcType="VARCHAR" property="nationstandardcode" />
+    <result column="measuerUnit" jdbcType="VARCHAR" property="measuerunit" />
+    <result column="equipmentUse" jdbcType="VARCHAR" property="equipmentuse" />
+    <result column="equipmentName" jdbcType="VARCHAR" property="equipmentname" />
+    <result column="offices" jdbcType="VARCHAR" property="offices" />
+  </resultMap>
+  </mapper>
