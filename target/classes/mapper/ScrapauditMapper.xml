@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haina.zcglxt.scrapaudit.dao.ScrapauditMapper">
+  <resultMap id="BaseResultMap" type="com.haina.zcglxt.scrapaudit.domain.Scrapaudit">
+    <result column="equipCode" jdbcType="VARCHAR" property="equipcode" />
+    <result column="defineEquipCode" jdbcType="VARCHAR" property="defineequipcode" />
+    <result column="definedSortType" jdbcType="VARCHAR" property="definedsorttype" />
+    <result column="equipmentName" jdbcType="VARCHAR" property="equipmentname" />
+    <result column="equipmentSimpleName" jdbcType="VARCHAR" property="equipmentsimplename" />
+    <result column="definedSortCode" jdbcType="VARCHAR" property="definedsortcode" />
+    <result column="nationStandardCode" jdbcType="VARCHAR" property="nationstandardcode" />
+    <result column="levelSort" jdbcType="VARCHAR" property="levelsort" />
+    <result column="singlePrice" jdbcType="DOUBLE" property="singleprice" />
+    <result column="amount" jdbcType="INTEGER" property="amount" />
+    <result column="totalPrice" jdbcType="DOUBLE" property="totalprice" />
+    <result column="manufacturer" jdbcType="VARCHAR" property="manufacturer" />
+    <result column="specification" jdbcType="VARCHAR" property="specification" />
+    <result column="modelType" jdbcType="VARCHAR" property="modeltype" />
+    <result column="equipmentManufacturingNum" jdbcType="VARCHAR" property="equipmentmanufacturingnum" />
+    <result column="equipmentManufacturingDate" jdbcType="TIMESTAMP" property="equipmentmanufacturingdate" />
+    <result column="supplier" jdbcType="VARCHAR" property="supplier" />
+    <result column="measuerJudge" jdbcType="VARCHAR" property="measuerjudge" />
+    <result column="measuerUnit" jdbcType="VARCHAR" property="measuerunit" />
+    <result column="bigEquipJudge" jdbcType="VARCHAR" property="bigequipjudge" />
+    <result column="purchaseInlandJudge" jdbcType="VARCHAR" property="purchaseinlandjudge" />
+    <result column="nationality" jdbcType="VARCHAR" property="nationality" />
+    <result column="outboundProperty" jdbcType="VARCHAR" property="outboundproperty" />
+    <result column="consumeOffice" jdbcType="VARCHAR" property="consumeoffice" />
+    <result column="equipStatus" jdbcType="VARCHAR" property="equipstatus" />
+    <result column="equipmentSource" jdbcType="VARCHAR" property="equipmentsource" />
+    <result column="purchaseDate" jdbcType="TIMESTAMP" property="purchasedate" />
+    <result column="turnInDate" jdbcType="TIMESTAMP" property="turnindate" />
+    <result column="equipmentUse" jdbcType="VARCHAR" property="equipmentuse" />
+    <result column="StorageDate" jdbcType="TIMESTAMP" property="storagedate" />
+    <result column="keepPlace" jdbcType="VARCHAR" property="keepplace" />
+    <result column="useDirection" jdbcType="VARCHAR" property="usedirection" />
+    <result column="consumeDate" jdbcType="TIMESTAMP" property="consumedate" />
+    <result column="euquiKeeper" jdbcType="VARCHAR" property="euquikeeper" />
+    <result column="capitalSource" jdbcType="VARCHAR" property="capitalsource" />
+    <result column="storageSerialNum" jdbcType="VARCHAR" property="storageserialnum" />
+    <result column="financeCertificateNum" jdbcType="VARCHAR" property="financecertificatenum" />
+    <result column="aggrementNumber" jdbcType="VARCHAR" property="aggrementnumber" />
+    <result column="payWay" jdbcType="VARCHAR" property="payway" />
+    <result column="invoiceAccount" jdbcType="VARCHAR" property="invoiceaccount" />
+    <result column="chequeAccount" jdbcType="VARCHAR" property="chequeaccount" />
+    <result column="accountsKeeper" jdbcType="VARCHAR" property="accountskeeper" />
+    <result column="financeAccountDate" jdbcType="TIMESTAMP" property="financeaccountdate" />
+    <result column="switcher" jdbcType="VARCHAR" property="switcher" />
+    <result column="deprecitionPattern" jdbcType="VARCHAR" property="deprecitionpattern" />
+    <result column="useYearsLimit" jdbcType="VARCHAR" property="useyearslimit" />
+    <result column="deprecitionJudge" jdbcType="VARCHAR" property="deprecitionjudge" />
+    <result column="startDeprecionMonth" jdbcType="VARCHAR" property="startdeprecionmonth" />
+    <result column="alreadyDeprecionMonth" jdbcType="VARCHAR" property="alreadydeprecionmonth" />
+    <result column="totalDeprecion" jdbcType="VARCHAR" property="totaldeprecion" />
+    <result column="leftVauleRatio" jdbcType="VARCHAR" property="leftvauleratio" />
+    <result column="leftValue" jdbcType="VARCHAR" property="leftvalue" />
+    <result column="equipmentEnglishName" jdbcType="VARCHAR" property="equipmentenglishname" />
+    <result column="officeAccountJudge" jdbcType="VARCHAR" property="officeaccountjudge" />
+    <result column="budgetSerialNum" jdbcType="VARCHAR" property="budgetserialnum" />
+    <result column="bigEquipName" jdbcType="VARCHAR" property="bigequipname" />
+    <result column="foreignCurrencyAmout" jdbcType="VARCHAR" property="foreigncurrencyamout" />
+    <result column="foreignTradeAgent" jdbcType="VARCHAR" property="foreigntradeagent" />
+    <result column="applicant" jdbcType="VARCHAR" property="applicant" />
+    <result column="scrapApplyDate" jdbcType="TIMESTAMP" property="scrapapplydate" />
+    <result column="scrapReason" jdbcType="VARCHAR" property="scrapreason" />
+    <result column="scrapRemarks" jdbcType="VARCHAR" property="scrapremarks" />
+    <result column="auditor" jdbcType="VARCHAR" property="auditor" />
+    <result column="auditDate" jdbcType="TIMESTAMP" property="auditdate" />
+    <result column="auditOpinion" jdbcType="VARCHAR" property="auditopinion" />
+    <result column="auditResult" jdbcType="VARCHAR" property="auditresult" />
+  </resultMap>
+  
+  
+</mapper>
